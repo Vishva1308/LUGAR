@@ -1,0 +1,36 @@
+#testimonials {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#testimonials .title {
+  font-size: 48px;
+  margin: 0px;
+}
+
+#testimonials .subTitle {
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+#testimonials .commentTitle {
+  font-size: 32px;
+}
+
+#testimonials .comment {
+  font-size: 24px;
+  color: #1e3240;
+  font-weight: 300px;
+}
+
+#testimonials .author {
+  font-size: 24px;
+  color: #1e3240;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+#testimonials .designation {
+  font-size: 18px;
+  color: #bdbdbd;
+}
