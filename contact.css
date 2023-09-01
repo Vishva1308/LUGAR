@@ -1,24 +1,17 @@
 
 #contactForm {
   padding-top: 75px;
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
-}
-
-.half {
-  width: 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .title {
-  font-size: 48px;
-  margin: 0px;
+  font-size: 29px;
+  /* margin: 0px; */
 }
 
 .subTitle {
-  font-size: 18px;
+  font-size: 16px;
   color: #bdbdbd;
   margin-bottom: 70px;
 }
@@ -54,4 +47,29 @@
   color: #bdbdbd;
   font-weight: 400;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 1080px) {
+  #contactForm {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  #contactForm .title {
+    font-size: 24px;
+  }
+
+  .subTitle {
+    font-size: 18px;
+    color: #bdbdbd;
+  }
+
+  #contactForm .image img{
+    width: 100%;
+  }
+ 
+  #contactForm #message{
+ display: block;
+  }
 }

@@ -1,6 +1,6 @@
 #footerPage {
-  height: 400px;
-  width: 1440px;
+  /* height: 400px; */
+  /* width: 1440px; */
   background-color: #1e3240;
   background-size: contain;
   margin-top: 100px;
@@ -19,7 +19,7 @@
   display: flex;
 }
 
-.end-container2 .menu {
+.end-container2 .footer-menu {
   padding-right: 80px;
 }
 
@@ -64,4 +64,27 @@
 
 .icon-container p {
   padding-left: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .end-container{
+    display: block;
+    padding-left: 50px;
+  }
+  .end-container2{
+    display: block;
+  }
+  .quickInfo {
+    margin-top: 50px;
+  }
+  .media {
+    margin-top: 50px;
+  }
+  .legalLinks {
+    margin-top: 50px;
+  }
+  .copyRight {
+    padding-left: 30px;
+  }
+  
 }

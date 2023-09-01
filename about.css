@@ -59,4 +59,23 @@
   #about .content{
     order: -1;
   }
+  #about .aboutTitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  #about .aboutComment {
+    font-size: 15px;
+    color: #bdbdbd;
+    font-weight: 300;
+  }
+  .numberSubtitle {
+    color: #afd4e2;
+    font-size: 13px;
+  }
+  .number-container .number {
+   
+    text-align: left;
+   
+  }
 }

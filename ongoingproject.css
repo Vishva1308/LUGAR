@@ -4,7 +4,14 @@
   justify-content: space-between;
 }
 
-.scroll-container {
+.flex-vector{
+  display: flex;
+}
+
+.flex-vector img{
+  padding-left:10px
+}
+#scroll-container {
   display: flex;
   overflow: auto;
   padding: 10px;
